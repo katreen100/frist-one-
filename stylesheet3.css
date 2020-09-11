@@ -1,0 +1,40 @@
+ /*i tried to import this file to main csss file but it doesnot work */
+ @media only screen and (max-width: 768px){
+	.home { 
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.ABOUT{ 
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.sidediv{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.card-group {
+    grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
+}
+.footer{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
+	height: auto;
+}
+body{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+	grid-template-columns: 1fr 1fr 1fr ;	
+}
+}
+}
